@@ -181,6 +181,7 @@
     background: #f44336;
 }
 
+/* Might not be useful */
 .shop ul li:hover::after{
     color: blue !important;
     width: 100%;
@@ -214,8 +215,43 @@
 
 .line{
   border-top: #ffffff 2px solid;
- 
- 
+}
+
+.line1{
+  border-top: #d1d0d0 2px solid;
+}
+
+.dashboard{
+  background: #f3f3f3;
+}
+
+.dashboard h6{
+  color: #f44336;
+  font-weight: 700 !important;
+}
+
+.text-section1{
+  margin-top: 10em;
+  padding-left: 7em;
+}
+
+.text-section1 h5{
+    font-weight: 700;
+}
+
+.view-box{
+  background: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+  border-radius: 7px;
+}
+
+.recent{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-img-top1{
+  border-radius: 7px 7px 0px 0px;
 }
 
 /* Icon 1 */
