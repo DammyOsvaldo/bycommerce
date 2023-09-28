@@ -31,11 +31,11 @@
   }
 
   .btn-sign5{
-    padding: 10px 42px;
-    background: #000000;
-    color: #e4e2e2ed;
+    padding: 8px 42px;
+    background: white;
+    color: #000000;
     font-size: 12px;
-    border: 1px solid #FFF;
+    border: 2px solid #000000;
     font-weight: 700 !important;
 }
 
@@ -218,7 +218,7 @@
 }
 
 .line1{
-  border-top: #d1d0d0 2px solid;
+  border-top: #f3f3f3 2px solid;
 }
 
 .dashboard{
@@ -252,6 +252,37 @@
 
 .card-img-top1{
   border-radius: 7px 7px 0px 0px;
+}
+
+.view-box1{
+  background: #fffefe;
+ 
+  border-radius: 7px;
+  
+}
+
+
+.location iframe{
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.reach{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-box{
+  border-radius: 7px;
+  background: #efe4e4;
+}
+
+.inner-box{
+  display: flex;
+}
+
+.icon-text p{
+  font-size: 12px;
 }
 
 /* Icon 1 */
@@ -406,6 +437,10 @@
         text-align: center;
         padding: 14px 16px;
         background: #f44336;
+    }
+
+    .reach{
+      flex-direction: column;
     }
   }
 
