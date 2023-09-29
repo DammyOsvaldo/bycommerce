@@ -77,6 +77,13 @@
    
 }
 
+.btn-sign5:hover{
+  transition: 1s;
+  background: #f44336;
+  border: 1px solid #f44336;
+  color: #ffffff;
+}
+
 .btn-sign2{
     padding: 8px 42px;
     background: whitesmoke;
@@ -296,6 +303,16 @@
   font-size: 10px;
 }
 
+.contact-col1 input, .contact-col1 textarea{
+  width: 60%;
+  outline: none;
+  border: 1px solid #a90e02 !important;
+  border-radius: 5px;
+}
+
+.contact-col1 p{
+  font-size: 10px;
+}
 
 .btn-send{
   padding: 8px 42px;
@@ -309,9 +326,35 @@
   border: none;
 }
 
+.btn-send1{
+  padding: 8px 42px;
+  background: #a90e02;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  outline: none;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+}
 
+.user-box{
+  background: #f3f3f3;
+}
 
+.info{
+  display: flex;
+  
+}
 
+.password{
+  padding-left: 12em;
+}
+
+.der{
+  border-right: 1px solid #a90e02 !important;
+  
+}
 /* Icon 1 */
 
 .animated-icon1,  .animated-icon2{
