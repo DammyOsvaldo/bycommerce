@@ -218,6 +218,7 @@
 
 .btn{
     border-radius: 50% !important;
+    background-color: #ffffff !important;
 }
 
 .line{
@@ -304,7 +305,7 @@
 }
 
 .contact-col1 input, .contact-col1 textarea{
-  width: 60%;
+  width: 80%;
   outline: none;
   border: 1px solid #a90e02 !important;
   border-radius: 5px;
@@ -326,6 +327,30 @@
   border: none;
 }
 
+.product-btn{
+  padding: 8px 22px;
+  background: #a90e02;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  outline: none;
+  width: auto;
+  border-radius: 5px;
+  border: none;
+}
+
+.product-btn1{
+  padding: 8px 22px;
+  background: #ffffff;
+  color: #a90e02;
+  font-size: 12px;
+  outline: none;
+  width: auto;
+  border-radius: 5px;
+  border: 1px solid #a90e02;
+  font-size: 10px !important;
+}
+
 .btn-send1{
   padding: 8px 42px;
   background: #a90e02;
@@ -333,13 +358,26 @@
   font-size: 12px;
   text-align: center;
   outline: none;
-  width: 60%;
+  width: 80%;
   border-radius: 5px;
   border: none;
 }
 
+.btn-send2{
+  padding: 8px 42px;
+  background: #a90e02;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  outline: none;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5em;
+}
+
 .user-box{
-  background: #f3f3f3;
+  background: #ffffff;
 }
 
 .info{
@@ -348,13 +386,55 @@
 }
 
 .password{
-  padding-left: 12em;
+  padding-left: 23em;
 }
 
 .der{
-  border-right: 1px solid #a90e02 !important;
+  border-right: 2px solid #e8e4e4 !important;
   
 }
+
+.form-header{
+margin-left: 10em !important;
+}
+
+.create{
+  padding: 3em;
+}
+
+.flex-am{
+  display: flex;
+}
+
+.card-body a{
+  
+  color: #000000 !important;
+}
+
+.card-body a:hover{
+  color: #a90e02 !important;
+}
+/* Social Media Hover Effect */
+.fa-youtube:hover, .fa-twitter:hover, .fa-facebook:hover{
+  color: white !important;
+}
+
+.youtube:hover{
+  color: white !important;
+  background-color: red !important;
+}
+
+.twitter:hover{
+  color: white !important;
+  background-color: #009dff !important;
+}
+
+.facebook:hover{
+  color: white !important;
+  background-color: #034294 !important;
+}
+
+
 /* Icon 1 */
 
 .animated-icon1,  .animated-icon2{
@@ -438,47 +518,6 @@
   /*styling the navbar ends here*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   @media screen and (min-width: 667px){
     
     .joey{
@@ -496,6 +535,21 @@
     .maza{
         margin-left: 1em;
     }
+
+    .btn-sign5, .btn-sign4{
+      width: 100%;
+      margin-bottom: 2em;
+    }
+
+    .btn-sign1, .btn-sign3, .btn-sign2{
+      width: 90%;
+    }
+
+    .back p,.back h5,.back h2, .back button{
+      padding-left: 0em !important;
+      padding-right: 0em !important;
+      margin-left: 0;
+    }
     
     .shop, .shop1{
         margin-left: 0;
@@ -511,6 +565,44 @@
 
     .reach{
       flex-direction: column;
+    }
+
+    .der{
+      border-right: none !important;
+    }
+
+    .dere{
+      border-top: 2px solid #e1e1e1;
+    }
+
+    .password{
+      padding-left: 10em !important;
+    }
+
+    .form-header{
+      margin-left: 3em !important;
+    }
+
+    .contact-col1 input{
+      width: 100%;
+    }
+
+    .btn-send1, .btn-send2{
+      width: 100%;
+      margin-left: 0 !important;
+      padding: 10px 42px;
+    }
+    
+    .create{
+      padding: 0 !important;
+    }
+
+    br{
+      display: none;
+    }
+
+    .product-btn1, .product-btn{
+      width: 100%;
     }
   }
 
